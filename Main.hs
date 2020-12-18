@@ -15,6 +15,13 @@
 module Main (main) where
 
 import XMonad
+import XMonad.Hooks.SetWMName
 
 main :: IO ()
-main = xmonad def
+-- main = xmonad def
+
+main = do
+  xmonad $ defaultConfig
+  --{
+  --startupHook = setWMName "LG3D"
+  --}

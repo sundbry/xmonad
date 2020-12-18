@@ -95,7 +95,7 @@ library
 
 executable xmonad
   main-is:       Main.hs
-  build-depends: base, X11, mtl, unix, xmonad
+  build-depends: base, X11, mtl, unix, xmonad, xmonad-contrib
   ghc-options:   -Wall -fno-warn-unused-do-bind -Wno-unused-imports
 
   -- Keep this in sync with the oldest version in 'tested-with'
